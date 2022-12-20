@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -13,15 +14,19 @@
     gap: 20px;
     width: 100vw;
     height: 100vh;
-    background-image: url('bg-stars.svg');
-    background-color: hsl(240, 54%, 67%);
+    background-image: url('./imagenes/bg-stars.svg');
+    background-color: hsl(234, 17%, 12%);
     background-position: center;
     background-size: cover;
     max-width: 1440px;
     min-width: 375px;
 }
-h1{
+h3{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
     color: white;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
 }
 .contador{
    
@@ -34,7 +39,7 @@ h1{
 
 }
 .number{
-    background-color:hsl(235, 16%, 14%) ;
+    background-color:hsl(236, 21%, 26%) ;
     color: hsl(345, 95%, 68%);
     width: 100%;
     height: 80px;
@@ -42,18 +47,34 @@ h1{
     font-size: 40px;
     font-weight: bold;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 10px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .containerTime{
     display: flex;
     flex-direction: column;
    justify-content: center;
+   gap: 15px;
    align-items: center;
-   width: 10%;
+   width: 10%; 
    
-    
     
 }
 .climb{
+    
     width: 100%;
+    position: relative;
+    top: 120px; 
+}
+.temporizador{
+color: hsl(237, 18%, 57%);
+}
+.redes{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 200px;
+    z-index: 1;
     
 }
