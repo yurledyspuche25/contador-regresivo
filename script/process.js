@@ -1,5 +1,5 @@
 export{number, countDownDate}
-let countDownDate = new Date ("12 27, 2022, 00: 00: 00").getTime();
+let countDownDate = new Date ("01 01, 2023, 00: 00: 00").getTime();
 let number = setInterval(function(){
     let now  = new Date().getTime();
     let distance = countDownDate - now;
