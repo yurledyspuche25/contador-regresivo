@@ -14,7 +14,7 @@
     gap: 20px;
     width: 100vw;
     height: 100vh;
-    background-image: url('./imagenes/bg-stars.svg');
+    background-image: url(../imagenes/bg-stars.svg);
     background-color: hsl(234, 17%, 12%);
     background-position: center;
     background-size: cover;
@@ -76,5 +76,51 @@ color: hsl(237, 18%, 57%);
     position: relative;
     top: 200px;
     z-index: 1;
+  
+}
+@media(max-width:416px){
+    .container{
+        padding: 5px;
+    }
+    .climb{
     
+        width: 100%;
+        position: relative;
+        top: 250px;
+        height: 200px; 
+    }
+    .redes{
+        display: flex;
+        gap: 20px;
+        position: relative;
+        top: 360px;
+        z-index: 1;
+      
+    }
+    .contador{
+        position: relative;
+        top: 150px;
+
+    }
+    h3{
+        position: relative;
+        top: 50px;
+    }
+    .containerTime{
+        
+       gap: 5px;
+       align-items: center;
+       width: 20%;
+       padding: auto;
+}
+}
+@media(max-width:1024){
+
+    .climb{
+    
+        width: 100%;
+        position: relative;
+        top: 150px;
+        height: 200px; 
+    }
 }
